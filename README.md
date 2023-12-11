@@ -6,7 +6,10 @@
 The project seeks to predict if news articles are fake. A Pew Research Center poll from 2016 showed that 88% of Americans think fake news is causing either a great amount or some amount of confusion about current events. By using the techniques outlined in this project document, I think machine learning can help in the fight against fake news. 
 To demonstrate the feasibility of this idea, the project uses the title, not the larger full text, of each article fed through a text preprocessing routine and then fed into the SVM Linear classifier. The title is used over the full text for a few reasons:
 * Processing the title is cheaper and faster.
-* While the data set always presents the full article text, in the real world, many news articles are hidden behind paywalls. Their titles are typically always available though. 
+* While the data set always presents the full article text, in the real world, many news articles are hidden behind paywalls. Their titles are typically always available though.
+
+## Data set
+This project uses the Kaggle.com data set found here: https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset/data
 
 ## Libraries
 
